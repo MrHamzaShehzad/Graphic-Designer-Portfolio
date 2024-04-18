@@ -86,6 +86,12 @@ button:hover, button:focus, button.active {
 .hidden {
   display: none;
 }
+.email{
+  color: white;
+ }
+ .number{
+   color: white;
+ }
 
 /*
 * Navigation
@@ -406,7 +412,7 @@ footer span {
   }
 }
 
-@media (min-width: 576px) and (max-width: 992px) {
+@media (min-width: 360px) and (max-width: 992px) {
   .portfolio .gallery .gallery__item:hover .overlay {
     height: 160px;
     background-color: red;
